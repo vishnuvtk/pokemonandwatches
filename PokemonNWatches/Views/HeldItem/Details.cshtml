@@ -1,0 +1,28 @@
+﻿@model PokemonNWatches.ViewModels.PokemonViewModel
+
+@{
+    ViewData["Title"] = "Pokémon Details";
+}
+
+<h1>@Model.PokemonName</h1>
+
+<p><strong>Role:</strong> @Model.PokemonRole</p>
+<p><strong>Style:</strong> @Model.PokemonStyle</p>
+<p><strong>HP:</strong> @Model.PokemonHP</p>
+<p><strong>Attack:</strong> @Model.PokemonAttack</p>
+<p><strong>Defense:</strong> @Model.PokemonDefense</p>
+<p><strong>Special Attack:</strong> @Model.PokemonSpAttack</p>
+<p><strong>Special Defense:</strong> @Model.PokemonSpDefense</p>
+<p><strong>Cooldown Reduction (CDR):</strong> @Model.PokemonCDR</p>
+
+<h2>Builds</h2>
+<ul>
+    @foreach (var build in Model.Builds)
+    {
+        <li>
+            Build @build.BuildId: @build.PokemonUpdatedAttack Attack
+        </li>
+    }
+</ul>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

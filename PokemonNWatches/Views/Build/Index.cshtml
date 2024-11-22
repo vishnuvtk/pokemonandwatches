@@ -1,0 +1,29 @@
+﻿@model IEnumerable<PokemonNWatches.ViewModels.BuildViewModel>
+
+@{
+    ViewData["Title"] = "All Builds";
+}
+
+<h1>All Builds</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Build ID</th>
+            <th>Pokemon</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var build in Model)
+        {
+            <tr>
+                <td>@build.BuildId</td>
+                <td>@build.PokemonName</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@build.BuildId" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

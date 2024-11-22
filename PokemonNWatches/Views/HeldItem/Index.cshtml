@@ -1,0 +1,31 @@
+﻿@model IEnumerable<PokemonNWatches.ViewModels.HeldItemViewModel>
+
+@{
+    ViewData["Title"] = "All Held Items";
+}
+
+<h1>All Held Items</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>HP</th>
+            <th>Attack</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.HeldItemName</td>
+                <td>@item.HeldItemHP</td>
+                <td>@item.HeldItemAttack</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.HeldItemId" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

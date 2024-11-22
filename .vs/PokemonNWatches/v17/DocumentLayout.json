@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PassionProject_Collab\\pokemonandwatches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E30628DE-B96A-4DB1-9942-5596AF874A09}|PokemonNWatches\\PokemonNWatches.csproj|d:\\passionproject_collab\\pokemonandwatches\\pokemonnwatches\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30628DE-B96A-4DB1-9942-5596AF874A09}|PokemonNWatches\\PokemonNWatches.csproj|solutionrelative:pokemonnwatches\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PassionProject_Collab\\pokemonandwatches\\PokemonNWatches\\Views\\Pokemon\\Index.cshtml",
+              "RelativeDocumentMoniker": "PokemonNWatches\\Views\\Pokemon\\Index.cshtml",
+              "ToolTip": "D:\\PassionProject_Collab\\pokemonandwatches\\PokemonNWatches\\Views\\Pokemon\\Index.cshtml",
+              "RelativeToolTip": "PokemonNWatches\\Views\\Pokemon\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T08:59:46.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

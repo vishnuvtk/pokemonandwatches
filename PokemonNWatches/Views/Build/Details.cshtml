@@ -1,0 +1,22 @@
+﻿@model PokemonNWatches.ViewModels.BuildViewModel
+
+@{
+    ViewData["Title"] = "Build Details";
+}
+
+<h1>Build Details</h1>
+
+<p><strong>Build ID:</strong> @Model.BuildId</p>
+<p><strong>Pokemon:</strong> @Model.PokemonName</p>
+<p><strong>Updated HP:</strong> @Model.PokemonUpdatedHP</p>
+<p><strong>Updated Attack:</strong> @Model.PokemonUpdatedAttack</p>
+
+<h2>Held Items</h2>
+<ul>
+    @foreach (var item in Model.HeldItems)
+    {
+        <li>@item.HeldItemName</li>
+    }
+</ul>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
